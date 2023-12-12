@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio.</h1>
+        <img class="profile" src="images/hoofd.png" alt="profile" width="250" height="250">
+        <p>Persoonlijk portfolio van <mark>Eyso van Voorthuizen.</mark></p>        
+    </header>
+
+<br>
+<nav>
+    <ul>
+        <li>
+           Lookbook
+        </li>
+        <li class="About">
+            About
+        </li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <a href="Lookbook.html">
+        <img class="book" src="images/book.png" alt="book">        
+    </a>
+    <a href="About.html">
+        <img class="vraagteken" src="images/vraagteken.png" alt="vraagteken">
+    </a>
+</div>
+  
+<div class="flexbox">
+    <img class="book" src="images/book.png" alt="Lookbook">
+    <img class="vraagteken" src="images/vraagteken.png" alt="About">
+</div>
+
+<footer>
+    <sub>
+        <p class="footer"><mark>E.J.VV</mark></p>
+    </sub>
+</footer>
+
+</body>
