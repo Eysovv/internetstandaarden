@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(218, 218, 218);
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    text-shadow: 2px 2px hotpink;
+    }
+    h1:hover{
+        color: hotpink;
+        text-shadow: 2px 2px yellow;
+        }
+
+h2{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 3px dashed black;
+    transition-duration: 150ms;
+}
+
+h2:hover
+{
+    border: 4px dashed hotpink;
+    color: hotpink;
+    font-size: larger;
+}
+
+h4{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+p{
+    color: black;
+    margin-left: 550px;
+    padding-left: 30px;
+    transition-duration: 200ms;
+}
+
+p:hover{
+    font-size: larger;
+    cursor: cell;
+    font-family: monospace;
+}
+
+strong{
+    color: black;
+    background: yellow;
+}
+
+mark{
+    font-family: monospace;
+    transition-duration: 200ms;    
+    }
+    mark:hover{
+        background-color: hotpink;
+        color: yellow;
+        font-weight: bold;
+        cursor: help;
+        font-size: 110%;
+    }
+
+
+img.profile{ 
+    border-radius: 25px;
+    border: 4px solid hotpink;
+    border-style: dashed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    }
+
+    img.profile:hover{
+    border-radius: 1%;
+    border: 5px dashed rgb(218, 218, 218);
+    background-color: yellow;
+    width: 260px; height: 260px;
+    transform: rotate(2deg);
+    cursor: cell;
+    }
+
+img.book{
+    transition-duration: 400ms;
+    width: 100%;
+    border: 1px solid rgb(218, 218, 218);
+    }
+
+    img.book:hover{
+        background-color: yellow;
+        border-radius: 50px;
+        width: 90%;
+    }
+
+        img.book:active{
+            background-color: rgb(218, 218, 218);
+            border: 10px dashed yellow;
+        }
+
+img.vraagteken{
+    transition-duration: 400ms;
+    width: 100%; height: auto;
+    }
+
+    img.vraagteken:hover{
+        background-color: hotpink;
+        border-radius: 50px;
+        width: 90%;
+        cursor: help;
+    }
+
+    img.vraagteken:active{
+        background-color: rgb(218, 218, 218);
+        border: 10px dashed hotpink;
+    }
+
+img.flex{
+    max-width: 200px;
+    float: left;
+    margin-left: 350px;
+    border: 0px dashed black;
+    transition-duration: 500ms;
+    border-radius: 30px;
+}
+
+img.flex:hover{
+    max-width: 300px;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly
+    }
+
+    li{
+        background-color: yellow;
+        color: black;
+        padding: 5px;
+        }
+
+    li.About{
+        background-color: hotpink;
+        color: yellow;
+        padding: 5px;
+        border: 1px solid hotpink;
+        }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.footer{
+    color: yellow;
+}
+
+footer{
+    color: black;
+    font-style: italic;
+    transition-duration: 200ms;
+    margin-left: 580px;
+    margin-right: 250px;
+}
+
+footer:hover{
+    font-size: larger;
+    font-family: monospace;
+    background-color: yellow;
+}
+
+.button{
+    color: yellow;
+    font-size: larger;
+    border: none;
+    text-decoration: none;
+    background-color: black;
+    transition-duration: 200ms;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 20px; margin-bottom: 20px;
+}
+
+.button:hover{
+    background-color: hotpink;
+    padding: 15px;
+    font-size: larger;
+}
+
+.button:active{
+    border: 5px solid yellow;
+}
