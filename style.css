@@ -122,7 +122,7 @@ img.vraagteken{
     }
 
 img.flex{
-    max-width: 200px;
+    max-width: 15%;
     float: left;
     margin-left: 350px;
     border: 0px dashed black;
@@ -131,10 +131,54 @@ img.flex{
 }
 
 img.flex:hover{
-    max-width: 300px;
+    max-width: 20%;
     border: 5px solid yellow;
     border-radius: 10px;
     margin-left: 250px;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 300ms;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.Project{
+    transition: 300ms;
+    border-radius: 10px;
+    width: 20%;
+    border: 0px dashed hotpink;
+}
+
+.Project:hover{
+    width: 25%;
+    border: 6px solid yellow;
+}
+
+.tekening{
+    width: 25%;
+    float: left;
+    margin-left: 350px;
+    margin-top: 50px;
+    border: 0px dashed black;
+    transition-duration: 500ms;
+    border-radius: 30px;
+}
+
+.tekening:hover{
+    width: 30%;
+    margin-left: 275px;
+    border: 5px dashed black;
+    border-radius: 5px;
+}
+
+.description{
+    margin-left: 150px;
+    margin-top: 75px;
+    font-size: larger;
 }
 
 ul{
@@ -177,7 +221,6 @@ footer{
 footer:hover{
     font-size: larger;
     font-family: monospace;
-    background-color: yellow;
 }
 
 .button{
