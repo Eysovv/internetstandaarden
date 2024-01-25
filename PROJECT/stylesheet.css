@@ -1,0 +1,175 @@
+body{
+    background-color: lightgrey;
+}
+
+h3, h5, a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    padding: 1%;
+}
+
+img.tramspoor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+h5{
+    text-align: center;
+}
+
+.water{
+    color: yellow;
+    background-color: black;
+}
+
+.droogte{
+    color: hotpink;
+}
+
+.hitte{
+    background-color: white;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+  
+li{
+    display: inline-block;
+
+}
+  
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px dashed;
+    border-radius: 15%;
+    transition-duration: 100ms;
+    font-weight: bolder;
+  }
+  
+  li a:hover {
+    background-color: black;
+    color: yellow;
+    box-shadow: 2px 2px hotpink;
+    text-shadow: 1px 1px hotpink;
+    font-size: larger;
+    font-weight: bolder;
+    border: 0px;
+  }
+
+.vak1{
+    max-width: fit-content;
+    z-index: -1;
+    position: absolute;
+    float: left;
+}
+
+.vak2{
+    max-width: fit-content;
+    z-index: -1;
+    position: absolute;
+    float: right;
+}
+
+.tekstvak1{
+    padding: 10% 0;
+    width: 300px;
+    height: 100px;
+    text-align: justify;
+}
+
+.tekstvak2{
+    float: right;
+    padding: 2% 0;
+    width: 300px;
+    height: 100px;
+    margin-left: 50%;
+}
+
+button{
+    float: right;
+    background-color: yellow;
+    border: none;
+    box-shadow: 2px 4px hotpink;
+    border-radius: 25%;
+    padding: 10px 12px;
+    margin-bottom: 3%;
+}
+
+button:hover{
+    background-color: yellow;
+    border: dashed 2px hotpink;
+}
+
+.button{
+    float: right;
+    color: hotpink;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px 2px;
+}
+
+.mapp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map{
+    float: none;
+    color: hotpink;
+    font-weight: bolder;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-radius: 40%;
+}
+
+p.bijschrift{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.result{
+    max-width: 75%;
+    margin-bottom: 5%;
+}
